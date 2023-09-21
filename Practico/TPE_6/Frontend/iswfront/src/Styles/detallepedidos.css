@@ -1,0 +1,16 @@
+.botonConfirmarDetallePedido {
+    background-color: white;
+    color: #006989;
+    transition: all 0.125s ease-in-out;
+}
+
+.botonConfirmarDetallePedido:active {
+    background-color: #006989;
+    color: white;
+}
+
+.containerBotonDetalleConfirmar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}

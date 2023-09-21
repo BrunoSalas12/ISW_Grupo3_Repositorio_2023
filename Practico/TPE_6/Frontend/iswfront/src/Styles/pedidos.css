@@ -1,0 +1,177 @@
+.textos{
+    background-color: #EAEBED;
+    color: #006989;
+}
+
+.seccion1{
+    background-color: #01A7C2;
+    color: #EAEBED;
+    text-align: center;
+    
+    
+}
+.seccion2{
+    
+    color: #006989;
+    background-color: #EAEBED;
+}
+.datos{
+    background-color: #a3bac3;
+    color: black;
+}
+
+.grilla1{
+    display: flex;
+    justify-content: center;
+    color: #006989;
+    background-color: #EAEBED;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.grilla2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #EAEBED;
+}
+
+.botonComun {
+    background-color: #007090;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botonfotos {
+    background-color: #007090;
+    transition: background-color 0.3s ease-in-out;
+    align-self: center;
+    justify-self: center;
+    width: 90vw;
+}
+
+
+.botonfotos:hover, .botonComun:hover {
+    background-color: #006989;
+    color: #EAEBED;
+  }
+
+.googleMaps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datosDePago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+  }
+  
+
+.interfazPago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonesPagos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.direccionbotonesPago{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fechaRecepcion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputsFechaHora{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.lineaHorizontalBase{
+    background-color: #006989;
+    height: 2px;
+    
+}
+.lineaHorizontalPunteada{
+    background-color: #006989;
+    height: 2px;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+.imageCard {
+    border-radius: 1rem;
+    margin: 5px;
+    border-width: 1px;
+    border-color: black;
+    justify-self: center;
+    align-self: center;
+    width: 90vw;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*Para el tamaño del celu*/
+@media (max-width: 800px) {
+    .datosDePago{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .interfazPago{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputsFechaHora{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .labelfechas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .botonConfirmar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPagos{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .datosDeLaTarjeta{
+        text-align: center;
+    }
+}
